@@ -1,1 +1,39 @@
-b{color: green;}
+body{
+	background-color: black;
+}
+h1{
+	color: orangered ;
+	font-size: 40pt;
+	font-family: Papyrus;
+	margin: 20px 100px 20px;
+}
+h2{
+	margin: 50px 250px ;
+	color: lightskyblue;
+	font-size: 20pt;
+}
+h3{
+	margin: 50px 20px;
+	color: limegreen;
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-family: Papyrus;
+}
+h4{
+	margin: 50px 20px;
+	color: limegreen;
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-family: Papyrus;
+}
+li{
+	margin: 10px 10px 10px;
+	color: antiquewhite;
+	font-size: 15pt;
+	font-family: Arial;
+}
+p{
+	margin: 60px 10px;
+	color: lightsteelblue;
+	font-size: 20pt;
+}
