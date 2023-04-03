@@ -1,0 +1,68 @@
+body{
+	background-color: black;
+	background-attachment: scroll;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	
+	
+}
+h1{
+	color: orangered ;
+	font-size: 40pt;
+	font-family: Papyrus;
+	text-align: center;
+}
+.Names {
+	display: grid;
+	grid-template-columns: auto;
+	background-color: whitesmoke;
+	padding: 10px;
+	gap:20px;
+	width: 80%;
+	margin: auto;
+}
+.Names>div {
+	background-color: orangered;
+	text-align: center;
+	padding: 20px;
+	font-size: 35px;
+}
+.InI {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: floralwhite;
+	grid-gap: 20px;
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+}
+.Ingredients {
+	background-color: lavender;
+	font-size: 35px;
+}
+.Instructions {
+	background-color: lavender;
+}
+.Ending {
+	display: grid;
+	grid-template-columns: auto;
+	background-color: navajowhite;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+.Meat {
+	display: block;
+	margin: auto;
+}
+@media (max-width: 768px) {
+	  .InI {
+    display: block;
+  }
+  .Ending {background-color: indianred;}
+  .Instructions {background-color: lightgoldenrodyellow;}
+  .Ingredients {background-color: olivedrab;}
+}
+
