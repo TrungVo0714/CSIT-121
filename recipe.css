@@ -1,0 +1,128 @@
+body{
+	background-color: black;
+	background-attachment: scroll;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	
+	
+}
+h1{
+	color: orangered ;
+	font-size: 40pt;
+	font-family: Papyrus;
+	text-align: center;
+}
+.Nutritional thead tr {Color: black;
+font-size: 30pt;
+font-weight: 900
+}
+.Names {
+	display: grid;
+	grid-template-columns: auto;
+	background-color: whitesmoke;
+	padding: 10px;
+	gap:20px;
+	width: 80%;
+	margin: auto;
+}
+.Names>div {
+	background-color: orangered;
+	text-align: center;
+	padding: 20px;
+	font-size: 35px;
+}
+.InI {
+	display: grid;
+	grid-template-columns: auto auto;
+	background-color: floralwhite;
+	grid-gap: 20px;
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+}
+.Ingredients {
+	background-color: lavender;
+	font-size: 35px;
+}
+.Instructions {
+	background-color: lavender;
+}
+.Ending {
+	display: grid;
+	grid-template-columns: auto;
+	background-color: navajowhite;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+}
+.Meat {
+	display: block;
+	margin: auto;
+}
+@media (max-width: 768px) {
+	  .InI {
+    display: block;
+  }
+  .Ending {background-color: indianred;}
+  .Instructions {background-color: lightgoldenrodyellow;}
+  .Ingredients {background-color: olivedrab;}
+
+}
+table {
+	width: 50%;
+	background-color: whitesmoke;
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+.Nutritional thead tr :nth-child(1) {
+ text-align: left;
+}
+
+.Nutritional thead tr:nth-child(3) {
+	border-top: 10px solid black;
+	}
+.Amount {
+	font-size: 30px;
+	font-weight: 900;
+}
+.Calories {
+	font-size: 40px;
+	font-weight: 900
+}
+.Value {
+	text-align: right;
+	font-size: 25px;
+	font-weight: 700;
+}
+.Total td:nth-child(2) {
+	text-align: right;
+}
+.Total {
+	font-size: 20px;
+}
+.Total td {
+	padding: 12px 15px;
+}
+.Last3 {
+	font-size: 20px;
+}
+.Last3 td {
+	padding: 12px 15px;
+}
+.Last3 td:nth-child(2) {
+	text-align: right;
+}
+.Nutritional tbody tr{
+	border-bottom: 1px solid black;
+}
+
+.form {
+	background-color: whitesmoke;
+	width: 30%;
+	margin: auto;
+	padding: 10px 30px;
+	 }
