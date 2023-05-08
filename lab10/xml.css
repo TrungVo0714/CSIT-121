@@ -1,0 +1,48 @@
+textarea {
+	background-color: black;
+	color: whitesmoke;
+	width: 500px;
+  	height: 180px;
+  	resize: none;
+}
+body{
+	background-color: black;
+	background-attachment: scroll;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	
+	
+}
+h1{
+	color: green ;
+	font-size: 40pt;
+	font-family: Papyrus;
+	text-align: center;
+}
+
+.Names {
+	background-color: whitesmoke;
+	padding: 10px;
+	gap:10px;
+	width: 80%;
+	margin: auto;
+	font-size: 30px;
+}
+
+
+.what {
+	grid-template-columns: auto auto;
+	background-color: floralwhite;
+	grid-gap: 20px;
+	padding: 10px;
+	width: 80%;
+	margin: auto;
+	font-size: 25px;
+}
+
+
+
+
+
+

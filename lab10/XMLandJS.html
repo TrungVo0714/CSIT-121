@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XML Introduction</title>
+<link rel="stylesheet" type="text/css" href="xml.css">
+</head>
+<body>
+<h1>XML Introduction</h1>
+<div class="Names">
+	<h2>What is XML?</h2>
+</div>
+<div class="what">
+	<p>XML stands for Extensible Markup Language. It is a set of codes, or tags, that describes the text in a digital document. The most famous markup language is hypertext markup language (HTML), which is used to format Web pages. XML, a more flexible cousin of HTML, makes it possible to conduct complex business over the Internet.</p>
+</div>
+<div class="Names">
+<h2>How is XML used?</h2>
+</div>
+<div class="what">
+	<ul>
+		<li>Data transfer: XML can be used to transfer data in a structure that can be parsed by all these diverse applications (web apps, desktop apps, mobile apps, etc.), and it's commonly used for creating APIs. SOAP and XML-RPC are two types of XML APIs used in web services.</li>
+		<li>Formatting documents: PDF files, PostScript files, Microsoft Word documents, PowerPoint documents, and RTF text files are also stored as XML. When you open these files in their default application, it parses this XML, formats it, and gives it the style you see on your computer screen.</li>
+		<li>Web searching: XML (HTML) tags can make searches more accurate.</li>
+		<li>Creating layouts: Every layout in an Android mobile application is created in XML. These layouts determine where data should be rendered on the screen of the phone. Common Android layouts include the Linear Layout, the Frame Layout, and the List Layout.</li>
+		<li>Storing configuration data: XML also stores the data used to configure an application. In Excel, XML holds all the information contained in a spreadsheet. Not just data, but also the definitions of the columns, the format of the fields, any calculations they use, and more.</li>
+	</ul>
+</div>
+<div class="Names">
+<h2>What does XML look likes?</h2>
+</div>
+<div class="what">
+	<textarea>
+	<?xml version="1.0" encoding="ISO-8859-1"?>  
+	<note>  
+  	<to>Tove</to>  
+  	<from>Jani</from>  
+  	<heading>Reminder</heading>  
+  	<body>Don't forget me this weekend!</body>  
+	</note>
+	</textarea>
+	<ul>
+	<li>The first line is the XML declaration. It defines the XML version (1.0) and the encoding used (ISO-8859-1 = Latin-1/West European character set).</li>
+	<li>The next line describes the root element of the document (like saying: "this document is a note").</li>
+	<li>The next 4 lines describe 4 child elements of the root (to, from, heading, and body).</li>
+	<li>And finally the last line defines the end of the root element.</li>
+	</ul>
+</div>
+<div class="Names">
+<h2>What is JavaScript?</h2>
+</div>
+<div class="what">
+	<p>
+		JavaScript is a scripting language for creating dynamic web page content. It creates elements for improving site visitors’ interaction with web pages, such as dropdown menus, animated graphics, and dynamic background colors.
+	</p>
+</div>
+<div class="Names">
+<h2>How is JavaScript related to HTML and CSS?</h2>
+</div>
+<div class="what">
+	<p>
+		HTML creates and structures the website’s content, CSS adds style and formatting to these structures, and then JavaScript turns those stylized components into something that a user can interact with.
+	</p>
+</div>
+<div class="Names">
+<h2>What are some common JavaScript elements, properties, methods, and functions?</h2>
+</div>
+<div class="what">
+		<p>JavaScript element: JavaScript Statements is a list of statements to be executed by a computer.	</p>
+		<textarea>
+	<p id="demo"></p>
+
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+
+document.getElementById("demo").innerHTML =
+"The value of z is " + z + ".";  
+</script>
+	</textarea>
+	<p>JavaScript property:Properties refer to the collection of values which are associated with the JavaScript object. This collection may not follow any particular order.</p>
+	<textarea>
+		<p id="gfg"></p>
+      
+    <!-- Script to add object property -->
+    <script>
+        var employee = {
+            name:"Steve",
+            id:"123"
+        };
+      
+        employee.age="25";
+          
+        document.getElementById("gfg").innerHTML = employee.name
+            + " age " + employee.age + " years, and has unique id "
+            + employee.id +".";
+    </script>
+	</textarea>
+	<p>JavaScript method: JavaScript methods are actions that can be performed on objects. A JavaScript method is a property containing a function definition.</p>
+	<textarea>
+		<script>
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+};
+person.name = function() {
+  return (this.firstName + " " + this.lastName).toUpperCase();
+};
+
+document.getElementById("demo").innerHTML =
+"My father is " + person.name(); 
+</script>
+	</textarea>
+	<p>JavaScript function: A JavaScript function is a block of code designed to perform a particular task. A JavaScript function is executed when "something" invokes it (calls it).</p>
+	<textarea>
+		<p id="demo"></p>
+
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(77);
+</script>
+	</textarea>
+
+</div>
+</body>
+</html>
